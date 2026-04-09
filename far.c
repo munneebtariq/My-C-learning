@@ -1,5 +1,5 @@
 //this is a program for right angled triangle pattern using stars
-/* 
+
 #include <stdio.h>
 
 int main() {
@@ -46,7 +46,7 @@ printf("\n");
 }
 return 0;
 }
-*/
+
 //Code for acute angled triangle pattern using stars
 
 #include <stdio.h>
