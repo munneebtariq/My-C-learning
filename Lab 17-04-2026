@@ -1,0 +1,60 @@
+#include <stdio.h>      
+int main() {
+    int a, b;
+    printf("enter a\n");
+    scanf("%d", &a);
+
+    printf("enter b\n");
+    scanf("%d", &b);
+     
+  
+    printf("the sum is : %d\n", a + b);
+    return 0;       
+}
+#include <stdio.h>
+int main() {
+    float side;
+    printf("enter side of rectangle");
+    scanf("%f", &side);
+    printf("the side of rectangle is : %f" , side * side);
+    return 0;
+}
+#include <stdio.h>
+int main() {
+   int side;
+    printf("enter side of rectangle/n");
+    scanf("%d", &side);
+    printf("the side of rectangle is : %d" , side * side);
+    return 0;
+}
+#include <stdio.h>
+int main(){
+    float radius;
+    printf("enter the raius of circle");
+    scanf("%f", & radius);
+    printf("the area of circle is : %f" , 3.14 * radius * radius);
+    return 0;
+}
+#include <stdio.h>
+int main() {
+    int a, b;
+    printf("enter a\n");
+    scanf("%d" , &a);
+
+    printf("enter b\n");
+    scanf("%d" , &b);
+
+    printf("the perimeter of rectangle is : %d" , 2 * (a + b));
+    return 0;
+
+}
+#include <stdio.h>
+int main() {
+    int number;
+    printf("enter number ");
+    scanf("%d" , &number);
+    printf("the cube of numer is : %d\n" , number  * number * number);
+    return 0;
+
+}
+
