@@ -1,0 +1,220 @@
+#include <stdio.h>
+int main (){
+    int marks[5];
+    int i;
+   for (i = 0; i < 5; i++){
+    printf("enter marks for subject%d: ", i  + 1);
+    scanf("%d", &marks[i]);
+   }
+   printf("marks are :\n");
+   for(i = 0; i < 5; i++){
+    printf("%d\n" , marks[i]);
+   }
+   return 0;
+
+}
+#include <stdio.h>
+int main (){
+    int marks[5] = {29, 29, 20, 28, 21};
+    int i;
+    printf("marks are :\n");    
+    for(i = 0; i < 5; i++){
+        printf("%d\n" , marks[i]);
+    }
+ return 0;
+
+}
+#include <stdio.h>
+int main() {
+    int n;
+    printf(" size of array");
+    scanf("%d" ,&n );
+    int arr[n];
+    printf("enter %d element: \n" , n);
+    for(int i = 0; i < n; i++){
+    scanf("%d" , &arr[i]);
+    }
+printf("reversed array is: \n");
+for (int i  = n - 1; i >=0; i--) {
+    printf("%d" , & arr[i]);
+}
+return 0;
+}
+#include <math.h>
+int main (){
+    printf("%f" , 2.0/3.0);
+    return 0;
+
+}
+
+#include <stdio.h>
+int main (){
+    int a = 5 * (2/2) * 3;
+    printf("%d\n" , a);
+    return 0;
+
+}
+#include <stdio.h>
+int main(){
+     int a = 5 + 2 / 2 * 3;
+     printf("%d\n" , a);
+     return 0;
+
+}
+#include <stdio.h>
+int main(){
+    int a;
+    int b;
+    printf("enter a");
+    scanf("%d" , &a);
+    printf("enter b ");
+    scanf("%d" , &b);
+
+    printf("the number is : %d\n" , a > b);
+    return 0;
+}
+#include <stdio.h>
+int main() {
+    printf("%d\n" , 78 > 90);
+    return 0;
+}
+// number divisible by 2
+#include <stdio.h>
+int main (){
+    int s;
+    printf("enter a number");
+    scanf("%d" , &s);
+    printf("%d\n" , s%2 == 0);
+    return 0;
+
+}
+//even >- 1
+//odd >- 0
+#include <stdio.h>
+int main() {
+    int s;
+    printf("enter a number");
+    scanf("%d" , &s);
+    printf("the given number is : %d\n" , s%2 == 0);
+    return 0;
+}
+#include <stdio.h>
+int main (){
+    int ismonday = 1;
+    int israining = 0;
+    printf("can we go outside? %d\n" , ismonday || israining);
+    return 0;
+}
+#include <stdio.h>
+int main(){
+    int s;
+    printf("enter the number");
+    scanf("%d" , &s);
+    printf("the given nummber is : %d\n" , (s>9) && (s<100));
+    return 0;
+}
+#include <stdio.h>
+int main(){
+    float m; 
+    float s; 
+    float r;
+    printf("enter number");
+    scanf("%f" , &m);
+    printf("enter number");
+    scanf("%f" , &s);   
+    printf("enter number");
+    scanf("%f" , &r);
+    printf("%f\n" , (m + s + r)/3);
+    return 0;
+
+}
+#include <stdio.h>
+int main () {
+    int s;
+    int i;
+    scanf("%d" ,&s);
+    printf(int s=0; s<10; s++){
+        printf("%d\n" , s*i);
+}
+}
+#include <stdio.h>
+int main(){
+    int age;
+    printf("enter age");
+    scanf("%d" , &age);
+    if( age>18){ 
+        printf("you can drive\n");
+     }
+     else{
+        printf("you cannot drive\n");
+     }
+     return 0;
+}
+#include <stdio.h>
+int main(){
+int age ;
+printf("enter age");
+scanf("%d" , &age);
+if(age > 18) {
+    printf("is an adult\n");}
+    else if(age >3 && age<18){ printf("is a teenager\n");}
+    else {printf("is a child");
+    }
+    return 0;
+}
+#include <stdio.h>
+int main() {
+    int marks;
+    printf("enter marks");
+    scanf("%d" , &marks);
+    // if(marks > 0 && marks <30){
+    //     printf("fail\n");
+    // }
+    // else if(marks >=30 && marks <=100){
+    //     printf("pass\n");
+    
+    // }
+    // else {
+    //     printf("invailid marks\n");
+
+    // }
+    marks >= 30 && marks <=100? printf("pass\n")  : printf("fail\n");
+        return 0;
+    }
+    #include <stdio.h>
+    int main() {
+        int i1=2 ,i2=4 ,i3=6, i4;
+        i4 = i3>i2>i1;
+        printf("%d", i4);
+        return 0;
+    }
+//     #include <stdio.h>
+// int main (){
+// int x = 10, y = 5;
+// printf("%d", x% y);
+// return 0;}
+printf("8=%d", 6*6);
+// 
+#include <stdio.h>
+int main() { // for (intialisation; condtion; updation);
+    int i=1;
+    while(i<=5){
+        printf("%d\n" , i);
+        i++;
+    }
+    return 0;
+
+}
+// 
+#include <stdio.h>
+int main() {
+   int n;
+   printf("enter number");
+    scanf("%d" , &n);
+    int fact = 1;
+    for(int i = 1; i <= n; i++){
+        fact = fact * i;
+    }
+    printf ("the factorial is %d\n" , fact);
+    return 0;
+}
